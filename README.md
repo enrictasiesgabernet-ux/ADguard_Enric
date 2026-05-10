@@ -305,14 +305,7 @@ docker compose pull
 docker compose up -d
 ```
  
----
- 
-## 🔗 Recursos
- 
-- [AdGuard Home GitHub](https://github.com/AdguardTeam/AdGuardHome)
-- [Imatge Docker oficial](https://hub.docker.com/r/adguard/adguardhome)
-- [Documentació oficial](https://adguard-dns.io/kb/adguard-home/overview/)
 - [Docker Compose docs](https://docs.docker.com/compose/)
 ---
  
-*Enric Tasies Gabernet · enrictasiesgabernet-ux · 2026*
+*Enric Tasies Gabernet*
