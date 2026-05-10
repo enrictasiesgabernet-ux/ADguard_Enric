@@ -1,0 +1,16 @@
+# Directoris generats per Docker (dades locals, no pujar al repo)
+adguard_work/
+adguard_conf/
+
+# Excepcions: el README sí que volem documentar l'estructura
+!screenshots/
+
+# Fitxers del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Variables d'entorn locals
+.env
+.env.local
