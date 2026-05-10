@@ -259,17 +259,17 @@ El Dashboard d'AdGuard mostra en temps real:
  
 ```
 ADguard_Enric/
-├── docker-compose.yml      # Definició del servei Docker
-├── README.md               # Aquesta documentació
-├── setup.sh                # Script de desplegament automatitzat
-├── test_bloqueig.sh        # Script per verificar el filtratge DNS
-├── .gitignore              # Exclusions de git
-├── adguard_conf/           # Configuració persistent (generat per Docker, no pujat)
+├── docker-compose.yml     
+├── README.md             
+├── setup.sh               
+├── test_bloqueig.sh      
+├── .gitignore             
+├── adguard_conf/           
 │   └── AdGuardHome.yaml
-├── adguard_work/           # Dades de treball (generat per Docker, no pujat)
+├── adguard_work/           
 │   └── data/
 │       └── querylog.json
-└── screenshots/            # ⭐ AQUÍ van les captures de pantalla
+└── screenshots/            
     ├── 01-dashboard.png        ← Panell de control
     ├── 02-blocklists.png       ← Llistes de bloqueig
     ├── 03-query-log.png        ← Query log amb bloqueigs
